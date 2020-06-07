@@ -1,0 +1,34 @@
+.root-container {
+    .landingpage {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        background-color: rgb(254, 255, 254);
+
+        .header {
+            text-align: center;
+            font-size: 2.2rem;
+            padding: 1rem 0;
+        }
+
+        .standard-layout {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            margin: 5rem 2rem;
+    
+            .eyecatcher {
+                height: 7rem;
+                width: 7rem;
+                border-radius: 50%;
+                border: 1px solid #E6CE56;
+                margin: 0 auto;
+            }
+    
+            h1.heading {
+                font-size: 1.35rem;
+            }
+        }
+    }
+}
